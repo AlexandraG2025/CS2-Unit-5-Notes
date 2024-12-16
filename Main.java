@@ -27,5 +27,16 @@ public class Main {
       // 2. or by using the method call directly
       System.out.println(kinder.getEmail());
 
+      //Test MUTATOR/SEETTER methods
+      // void methods no output
+      // but they need an argument imput
+      kinder.setFirstName("james");
+      kinder.setlastName("walter");
+      System.out.println(kinder);
+      kinder.setEmail("James.Walter2037@gbwl.org");
+      System.out.println(kinder);
+      //Didn't need to setGradYear ebcause the defalut constructer gave an approrpiate value for this already 
+
+
    }
 }

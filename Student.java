@@ -76,4 +76,27 @@ public class Student {
         email = newEmail;
     }
 
+    //OTHER METHODS (behavoirs/actions associated with the object)
+    // Example: VOID method, no parameters
+    public void complain(){
+        //Method BODY is the steps for this process
+        System.out.println("I don't want to be at school!");
+    }
+
+    //Example; VOID method, need a parameter
+
+    public void do homework(int numAssignments){
+        // print a message fpr each assignment completed
+        for (int i = numAssignments; i > 0; i ---) {
+            System.out.println(Working,wokring,working...);
+        }
+        System.out.println("Done with homework!");
+    }
+
+
+
+
+
+
+
 }

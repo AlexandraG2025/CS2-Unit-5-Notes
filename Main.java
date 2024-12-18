@@ -37,6 +37,12 @@ public class Main {
       System.out.println(kinder);
       //Didn't need to setGradYear ebcause the defalut constructer gave an approrpiate value for this already 
 
+      //CALL our custom behavoior methods 
+      //Example: no output, no input
+      junior.complain();
+      //Example: no output, NEEDS input
+      junior.doHomework(8);
+
 
    }
 }

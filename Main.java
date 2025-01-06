@@ -43,6 +43,9 @@ public class Main {
       //Example: no output, NEEDS input
       junior.doHomework(8);
 
+      // Testing the student class documentation
+      StudentDocs test = new StudentDocs()
+
 
    }
 }
